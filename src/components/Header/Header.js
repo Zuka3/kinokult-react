@@ -29,16 +29,14 @@ export default function Header() {
 
           <div className="text-right col-sm-3 col-6">
             <div>
-              <a href="index.php?lang=en" className="mr-2">
-                eng
-              </a>
-              /
-              <a href="index.php?lang=ru" className="ml-2">
-                ru
-              </a>
+              {/* <a href="index.php?lang=en" className="mr-2"> */}
+              eng
+              {/* </a> */}/{/* <a href="index.php?lang=ru" className="ml-2"> */}
+              ru
+              {/* </a> */}
             </div>
             <div className="mt-3">
-              <a href="https://www.facebook.com/KINOiKULT/" target="_blank">
+              <a href="https://www.facebook.com/KINOiKULT/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -56,7 +54,7 @@ export default function Header() {
               </a>
               <a
                 href="https://www.instagram.com/kinokultfilms/"
-                target="_blank"
+                // target="_blank"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

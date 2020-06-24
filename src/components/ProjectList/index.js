@@ -21,7 +21,7 @@ export default class ProjectList extends Component {
       <section className="row">
         {projects.map((project) => (
           <Projects
-            key={projects.id}
+            key={project.id}
             project={project}
             removeProject={this.removeProject}
           ></Projects>
